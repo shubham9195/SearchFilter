@@ -8,22 +8,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/script.js"></script>
-    <style>
-        .mainBody {
-            width: 100%;
-            background-color: #a1e4a1;
-            height: 100vh;
-        }
-        .card-body {
-            background: #fff;
-            height: 50vh;
-            margin: 50px;
-        }
-        .search-table {
-        width: 100%;
-        padding: 20px
-        }
-    </style>
 </head>
 
 <body>
@@ -32,25 +16,24 @@
 
         <div class="card-body">
             <table class="search-table">
-                <tr >
+                <tr>
                     <td style="width: 95%">
                         <input id="searchBar" type="text" style="width: 100%;height: 25px">
                     </td>
                     <td>
                         <button style="background-color: green;color: #fff;height:30px;border: none"
-                        onclick="search()"
-                        >Search</button>
+                            onclick="search()">Search</button>
                     </td>
                 </tr>
             </table>
             <div>
                 <table class="table-items">
-                    <tr>
-                        <td class="thumbnails"> 
-    
+                    <tr style="height: 120px" style="width: 100%">
+                        <td class="thumbnails" id="imgList" style="width: 10%">
+
                         </td>
-                        <td id="demo" class="details">
-    
+                        <td id="demo" class="details" style="width: 90%">
+
                         </td>
                     </tr>
                 </table>
@@ -58,6 +41,7 @@
         </div>
 
     </div>
+
 </body>
 
 </html>

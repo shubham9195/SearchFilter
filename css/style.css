@@ -1,0 +1,22 @@
+body{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+}
+.mainBody {
+    width: 100%;
+    background-color: #a1e4a1;
+    height: 100vh;
+    margin-top: -20px;
+}
+.card-body {
+    background: #fff;
+    height: 50vh;
+    margin: 50px;
+}
+.search-table {
+width: 100%;
+padding: 20px
+}
