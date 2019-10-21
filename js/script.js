@@ -1,4 +1,4 @@
-var timeLeft = 30;
+var timeLeft = 130;
 var elem = document.getElementById('timer');
 var timerId = setInterval(countdown, 1000);
 
@@ -25,7 +25,7 @@ function search() {
 
             // iterating data
             myJson.articles.slice(0,9).map((item, index) => {
-                document.getElementById("demo").innerHTML += item.title + "<br>";
+                document.getElementById("demo").innerHTML += item.title + "<br>" + "<br>" + "<br>";
                 if (item.urlToImage !== null) {
                     var imageSpan = document.createElement('span')
                     var img = document.createElement('img');
