@@ -52,7 +52,8 @@ padding: 20px
         padding: 6px;
         margin-top: -7px;
 }
-    }
+
+}
     @media only screen and (min-width: 768px) {
         .data{
             font-size: 16px;
