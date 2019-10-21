@@ -1,4 +1,4 @@
-var timeLeft = 130;
+var timeLeft = 30;
 var elem = document.getElementById('timer');
 var timerId = setInterval(countdown, 1000);
 
@@ -35,7 +35,6 @@ function search() {
                     img.height = 50
                     imageSpan.appendChild(img);
                     container.appendChild(imageSpan);
-                    console.log('imagechk', item.urlToImage);
                 }
                 else {
 
@@ -45,8 +44,6 @@ function search() {
                     img.width = 100
                     img.height = 50
                     container.appendChild(img);
-                    console.log('imagechk','https://homepages.cae.wisc.edu/~ece533/images/airplane.png'
-);
                 }
             })
         )
