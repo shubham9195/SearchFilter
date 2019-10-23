@@ -23,8 +23,9 @@ function refreshFunc(stop) {
     window.interval = interval;
 }
 function createQuery() {
-    window.searched = true;
     var query = document.getElementById('searchBar').value
+    window.searched = true;
+
     console.log('dco', query);
     if (query) {
         console.log('refresh', window.refresh, !window.refresh);
@@ -59,7 +60,7 @@ async function search(query, pageCount) {
                 text.className = 'data';
                 let image = document.createElement('img');
                 image.className = 'img';
-                text.innerHTML = `<a href=${item.url}>${item.title}</a>`;
+                text.innerHTML = `<a class= "link" href=${item.url}>${item.title}</a>`;
                 if (item.urlToImage !== null) {
                     image.src = item.urlToImage;
                     image.width = 100

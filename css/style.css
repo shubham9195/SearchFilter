@@ -55,7 +55,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    
+    margin: 6px;
 }
 .input{
     display: flex;
@@ -66,12 +66,15 @@ body{
     display: flex;
     width: 100%;
 }
+.link{
+    text-decoration: none;
+}
 @media only screen and (min-width: 400px) {
     .data{
         font-size: 0.73em;
-        
         padding: 6px;
-        margin-top: -7px;
+        margin: 6px;
+        
 }
 
 }
@@ -80,6 +83,7 @@ body{
         font-size: 16px;
         display:flex;
         justify-content: space-between;
+        
     }
 }
 
